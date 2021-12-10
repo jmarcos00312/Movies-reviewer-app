@@ -48,7 +48,7 @@ function MovieCard({ movies }) {
                 <button variant="secondary" onClick={() => handleClick()}>Show Review</button>
             </div>*/
             }
-            {click && <DisplayMovieContent shows={showContent} comments={comments} setComments={setComments} />}
+            {click && <DisplayMovieContent movies={showContent} comments={comments} setComments={setComments} />}
         </div>
     )
 }

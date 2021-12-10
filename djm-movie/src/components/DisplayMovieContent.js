@@ -26,6 +26,7 @@ function DisplayMovieContent({ movies, comments, setComments }) {
                 setComments(comments.filter(r => r.id !== id)))
         window.location.reload(false)
     }
+    debugger
     const everyComment = comments.map(item => {
         return (
             <ul>

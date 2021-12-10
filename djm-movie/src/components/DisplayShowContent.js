@@ -26,7 +26,7 @@ function DisplayShowContent({ shows, comments, setComments }) {
         window.location.reload(false)
     }
 
-    const everyComment = shows.reviews.map(item => {
+    const everyComment = comments.map(item => {
         return (
             <ul>
                 <li>{item.comment} <br />movie rating: <strong>{item.rating}</strong> </li>
